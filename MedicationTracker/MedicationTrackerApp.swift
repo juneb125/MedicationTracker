@@ -5,6 +5,7 @@
 //  Created by June Bergeron on 4/17/24.
 //
 
+import SwiftData
 import SwiftUI
 
 @main
@@ -13,5 +14,6 @@ struct MedicationTrackerApp: App {
         WindowGroup {
             ContentView()
         }
+		.modelContainer(for: Medication.self)
     }
 }

@@ -14,6 +14,7 @@
 		497F6EB82BD0841C006FC819 /* MedicationTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F6EB72BD0841C006FC819 /* MedicationTrackerTests.swift */; };
 		497F6EC22BD0841C006FC819 /* MedicationTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F6EC12BD0841C006FC819 /* MedicationTrackerUITests.swift */; };
 		497F6EC42BD0841C006FC819 /* MedicationTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F6EC32BD0841C006FC819 /* MedicationTrackerUITestsLaunchTests.swift */; };
+		497F6ED12BD084C0006FC819 /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F6ED02BD084C0006FC819 /* Medication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		497F6EBD2BD0841C006FC819 /* MedicationTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicationTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		497F6EC12BD0841C006FC819 /* MedicationTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationTrackerUITests.swift; sourceTree = "<group>"; };
 		497F6EC32BD0841C006FC819 /* MedicationTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		497F6ED02BD084C0006FC819 /* Medication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				497F6EA62BD0841A006FC819 /* MedicationTrackerApp.swift */,
 				497F6EA82BD0841A006FC819 /* ContentView.swift */,
+				497F6ED02BD084C0006FC819 /* Medication.swift */,
 				497F6EAA2BD0841B006FC819 /* Assets.xcassets */,
 				497F6EAC2BD0841B006FC819 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				497F6EA92BD0841A006FC819 /* ContentView.swift in Sources */,
+				497F6ED12BD084C0006FC819 /* Medication.swift in Sources */,
 				497F6EA72BD0841A006FC819 /* MedicationTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
