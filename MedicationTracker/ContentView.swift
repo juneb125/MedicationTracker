@@ -5,19 +5,21 @@
 //  Created by June Bergeron on 4/17/24.
 //
 
-import SwiftData
+//import SwiftData
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
+	var body: some View {
+		NavigationStack {
+			VStack {
+				Image(systemName: "globe")
+					.imageScale(.large)
+				Text("Hello, world!")
+					.padding(.top, 2)
+			}
+			.navigationTitle("Med Tracker")
+		}
+	}
 }
 
 #Preview {
